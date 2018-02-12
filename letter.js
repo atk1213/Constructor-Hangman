@@ -14,11 +14,8 @@ function Letter(letter){
     };
 
     this.check = function(userInput) {
-        if (userInput === letter) {
+        if (userInput === this.letter) {
             this.guessedRight = true;
-        }
-        else {
-            this.guessedRight = false;
         }
     }
 };
