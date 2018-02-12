@@ -7,6 +7,7 @@ var chances = 15;
 var words = [];
 var theWord;
 // var alreadyGuessed = [];
+// need to fix validation to recognize repeated guesses
 
 fs.readFile('wordlist.txt', 'utf8', function (error, data) {
     if (error) {
